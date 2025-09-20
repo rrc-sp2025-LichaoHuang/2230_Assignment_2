@@ -4,29 +4,36 @@
   font-weight: normal;
   font-style: normal;
 }
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
     text-align: center;
-    background-color: rgb(193, 227, 255);
+    background-color: rgba(0, 92, 168, 0.208);
 }
+
 header p{
     font-family: 'Imperial Script', sans-serif;
 }
+
 header img {
     border-radius: 60%;
 }
+
 h1{
     font-family: 'Imperial Script', sans-serif;
     font-size: 80px;
     justify-self: center;
-    color: rgb(163, 101, 0);
+    color: #1a3d6c;
 }
+
 body {
   font-family: 'Alan Sans', sans-serif;
+  background-color: rgb(100, 132, 166);
 }
+
 nav ul{
     display: flex;
     gap: 20px; 
@@ -41,8 +48,53 @@ nav ul li a {
     display: inline-block;
 }
 
+nav ul li a:link {
+    color: #337ddd;
+}
+
+nav ul li a:visited {
+    color: #1a3d6c;
+}
+
 nav ul li a:hover {
-    color:brown;
     text-decoration: none;
     transform: scale(1.2);
 }
+
+#contact_information{
+    display: flex;
+    justify-content: center;
+}
+
+#contact_information a{
+    text-decoration: none;
+}
+
+#contact_information a:visited {
+    color: #337ddd;
+}
+
+#contact_information a:visited {
+    color: #1a3d6c;
+}
+#about_me {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about_me h2 {
+    font-family: 'Imperial Script', sans-serif;
+    font-size: 2.5rem;                       /* 大标题 */
+    margin-bottom: 25px;                     /* 与段落间距 */
+    color: #1a3d6c;                          /* 深蓝色标题 */
+}
+
+#about_me p {
+    font-family: 'Alan Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.0;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
