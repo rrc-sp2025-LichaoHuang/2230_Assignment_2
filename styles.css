@@ -1,10 +1,14 @@
-head{
-    font-family:'Times New Roman', Times, serif;
+@font-face {
+  font-family: 'font';
+  src: url('fonts/BitcountGridSingleInk-VariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-
 body {
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 2;
-    background-color: azure;
+  font-family: 'Bitcount Grid Single Ink', sans-serif;
+}
+
+h1 {
+  font-family: 'Imperial Script', cursive;
 }
