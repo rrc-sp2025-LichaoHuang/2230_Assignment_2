@@ -77,16 +77,18 @@ nav ul li a:hover {
 #contact_information a:visited {
     color: #1a3d6c;
 }
+
 #about_me {
     padding: 50px 20px;
     text-align: center;
+    background-color: rgba(0, 92, 168, 0.208);
 }
 
 #about_me h2 {
     font-family: 'Imperial Script', sans-serif;
-    font-size: 2.5rem;                       /* 大标题 */
-    margin-bottom: 25px;                     /* 与段落间距 */
-    color: #1a3d6c;                          /* 深蓝色标题 */
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #1a3d6c;
 }
 
 #about_me p {
@@ -98,3 +100,67 @@ nav ul li a:hover {
     color: #333;
 }
 
+#skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-family: 'Imperial Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1a3d6c;
+}
+
+#skills figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: default;
+}
+
+#skills figure img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+#skills figure h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#skills figure:hover {
+    transform: scale(1.3);
+}
+
+#skillP img {border: 2px solid #306998;}
+#skillE img {border: 2px solid #217346;}
+#skillJ img {border: 2px solid #f89820;}
+#skillD img {border: 2px solid #8a2be2;}
+#skillH img {border: 2px solid #940000;}
+#skillS img {border: 2px solid #a9ceff;}
+
+@media (max-width: 600px) {
+    #skills figure {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #skills figure img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #skills h2 {
+        font-size: 2rem;
+    }
+
+    #skills figure h3 {
+        font-size: 1rem;
+    }
+}
