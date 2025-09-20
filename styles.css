@@ -31,7 +31,7 @@ h1{
     font-family: 'Imperial Script', sans-serif;
     font-size: 80px;
     justify-self: center;
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 body {
@@ -51,14 +51,15 @@ nav ul li a {
     font-weight: bold;
     padding: 5px 10px;
     display: inline-block;
+    transition: transform 0.3s;
 }
 
 nav ul li a:link {
-    color: #337ddd;
+    color: #142e52;
 }
 
 nav ul li a:visited {
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 nav ul li a:hover {
@@ -75,11 +76,11 @@ nav ul li a:hover {
 #contact_information h2 {
     font-family: 'Imperial Script', sans-serif;
     font-size: 2.5rem;
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 #contact_information ul{
-    color: #333;
+    color: #070707;
 }
 
 #contact_information a{
@@ -87,11 +88,7 @@ nav ul li a:hover {
 }
 
 #contact_information a:visited {
-    color: #337ddd;
-}
-
-#contact_information a:visited {
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 #about_me {
@@ -104,7 +101,7 @@ nav ul li a:hover {
     font-family: 'Imperial Script', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 25px;
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 #about_me p {
@@ -113,7 +110,7 @@ nav ul li a:hover {
     line-height: 2.0;
     max-width: 800px;
     margin: 0 auto;
-    color: #333;
+    color: #070707;
 }
 
 #skills {
@@ -125,7 +122,7 @@ nav ul li a:hover {
     font-family: 'Imperial Script', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #1a3d6c;
+    color: #142e52;
 }
 
 #skills figure {
@@ -147,7 +144,7 @@ nav ul li a:hover {
 #skills figure h3 {
     margin-top: 10px;
     font-size: 1.2rem;
-    color: #333;
+    color: #070707;
 }
 
 #skills figure:hover {
@@ -160,6 +157,20 @@ nav ul li a:hover {
 #skillD img {border: 2px solid #8a2be2;}
 #skillH img {border: 2px solid #940000;}
 #skillS img {border: 2px solid #a9ceff;}
+
+#skills figcaption {
+    color: rgb(31 0 81);
+}
+
+footer {
+    background-color: rgba(0, 92, 168, 0.208);
+    padding: 20px 10px;
+    text-align: center;
+    color: #070707;
+    font-family: 'Alan Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
 
 @media (max-width: 600px) {
     #skills figure {
@@ -179,13 +190,4 @@ nav ul li a:hover {
     #skills figure h3 {
         font-size: 1rem;
     }
-}
-
-footer {
-    background-color: rgba(0, 92, 168, 0.208);
-    padding: 20px 10px;
-    text-align: center;
-    color: #333;
-    font-family: 'Alan Sans', sans-serif;
-    font-size: 0.9rem;
 }
