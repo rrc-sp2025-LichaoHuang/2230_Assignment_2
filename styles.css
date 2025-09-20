@@ -4,11 +4,45 @@
   font-weight: normal;
   font-style: normal;
 }
-
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    background-color: rgb(193, 227, 255);
+}
+header p{
+    font-family: 'Imperial Script', sans-serif;
+}
+header img {
+    border-radius: 60%;
+}
+h1{
+    font-family: 'Imperial Script', sans-serif;
+    font-size: 80px;
+    justify-self: center;
+    color: rgb(163, 101, 0);
+}
 body {
-  font-family: 'Bitcount Grid Single Ink', sans-serif;
+  font-family: 'Alan Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    list-style: none;
 }
 
-h1 {
-  font-family: 'Imperial Script', cursive;
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color:brown;
+    text-decoration: none;
+    transform: scale(1.2);
 }
