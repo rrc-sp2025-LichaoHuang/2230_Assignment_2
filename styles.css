@@ -22,6 +22,11 @@ header img {
     border-radius: 60%;
 }
 
+header img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
 h1{
     font-family: 'Imperial Script', sans-serif;
     font-size: 80px;
@@ -163,4 +168,13 @@ nav ul li a:hover {
     #skills figure h3 {
         font-size: 1rem;
     }
+}
+
+footer {
+    background-color: rgba(0, 92, 168, 0.208);
+    padding: 20px 10px;
+    text-align: center;
+    color: #333;
+    font-family: 'Alan Sans', sans-serif;
+    font-size: 0.9rem;
 }
